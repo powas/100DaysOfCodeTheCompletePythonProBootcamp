@@ -46,6 +46,8 @@ def play_game():
 
     user_cards = []
     computer_cards = []
+    user_score = 0
+    computer_score = 0
     game_ended = False
 
     for _ in range(2):

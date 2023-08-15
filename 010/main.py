@@ -1,5 +1,6 @@
 from art import logo
 
+
 # Add
 def add(n1, n2):
     return n1 + n2
@@ -24,8 +25,10 @@ operations = {
     "+": add,
     "-": subtract,
     "*": multiply,
-    "/":divide,
+    "/": divide,
 }
+
+
 def calculator():
     print(logo)
     num1 = float(input("What's the first number?: "))
@@ -44,5 +47,6 @@ def calculator():
         else:
             should_continue = False
             calculator()
+
 
 calculator()
